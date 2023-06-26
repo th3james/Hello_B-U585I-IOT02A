@@ -1,0 +1,28 @@
+solution:
+  description: Simple Hello World example for B-U585I-IOT02A
+  created-for: CMSIS-Toolbox@2.0.0
+  compiler: AC6
+
+  packs:
+    - pack: ARM::CMSIS@5.9.0
+    - pack: ARM::CMSIS-Compiler@1.0.0
+    - pack: Keil::STM32U5xx_DFP@2.1.0
+    - pack: Keil::B-U585I-IOT02A_BSP@1.0.0
+
+  target-types:
+    - type: B-U585I-IOT02A
+      board: STMicroelectronics::B-U585I-IOT02A
+      processor:
+        trustzone: off
+
+  build-types:
+    - type: Debug
+      debug: on
+      optimize: none
+
+    - type: Release
+      debug: off
+      optimize: balanced
+
+  projects:
+    - project: ./hello.cproject.yml
