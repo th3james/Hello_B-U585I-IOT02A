@@ -34,7 +34,7 @@ Download required packs (not required when the packs are already available) by e
    cpackget update-index
    cpackget add -f packs.txt
    ```
-Build the project by execute the following command:
+Build the project by executing the following command:
 ```sh
 cbuild hello.csolution.yml
 ```
