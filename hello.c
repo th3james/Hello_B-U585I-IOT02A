@@ -31,7 +31,6 @@ static void app_main (void *argument) {
     printf("Hello World %d\r\n", count);
     osDelay(1000U);
   }
-  printf("\x04");      // EOT
   osDelay(osWaitForever);
 }
 
