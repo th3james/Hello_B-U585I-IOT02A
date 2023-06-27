@@ -2,7 +2,7 @@ project:
 
   groups:
     - group: Documentation
-      files: 
+      files:
         - file: README.md
     - group: Application
       files:
