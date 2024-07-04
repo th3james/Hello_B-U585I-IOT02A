@@ -4,7 +4,7 @@ Simple Hello World example for STMicroelectronics [**B-U585I-IOT02A**](https://w
 This example prints "Hello World" and a counter value via the standard output which is routed to the debug console through Virtual COM port.
 
 [![Keil Studio Cloud - Import Project](https://img.shields.io/badge/Keil_Studio_Cloud-Import_Project-0091bd?logo=arm&logoColor=0091bd)](https://studio.keil.arm.com/?import=https://github.com/Arm-Examples/Hello_B-U585I-IOT02A.git)
-[![example workflow](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_B-U585I-IOT02A/ci.yml?logo=arm&logoColor=0091bd&label=Example%20Publishable)](https://www.keil.arm.com/) 
+[![example workflow](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_B-U585I-IOT02A/ci.yml?logo=arm&logoColor=0091bd&label=Example%20Published)](https://www.keil.arm.com/) 
 [![CMSIS Compliance](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_B-U585I-IOT02A/verify.yml?logo=arm&logoColor=0091bd&label=CMSIS%20Compliance)](https://www.keil.arm.com/cmsis) 
 
 ## Prerequisites
