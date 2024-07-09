@@ -4,10 +4,11 @@ solution:
   compiler: AC6
 
   packs:
-    - pack: ARM::CMSIS@5.9.0
-    - pack: ARM::CMSIS-Compiler@1.0.0
-    - pack: Keil::STM32U5xx_DFP@2.1.0
-    - pack: Keil::B-U585I-IOT02A_BSP@1.0.0
+    - pack: ARM::CMSIS
+    - pack: ARM::CMSIS-RTX
+    - pack: ARM::CMSIS-Compiler
+    - pack: Keil::STM32U5xx_DFP
+    - pack: Keil::B-U585I-IOT02A_BSP
 
   target-types:
     - type: B-U585I-IOT02A

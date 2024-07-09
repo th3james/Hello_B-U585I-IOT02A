@@ -1,0 +1,12 @@
+{
+    "cmsis-csolution.actions": [
+        {
+            "path": "hello.csolution.yml",
+            "target": "B-U585I-IOT02A",
+            "config": {
+                "run": "arm-debugger.flash: Flash Device",
+                "debug": "Arm Debugger"
+            }
+        }
+    ]
+}
