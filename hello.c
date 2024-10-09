@@ -29,6 +29,7 @@ static void app_main (void *argument) {
 
   for(int count = 0; count < 10; count++) {
     printf("Goodbye Sea %d\r\n", count);
+    printf("C O M P U T E R");
     osDelay(1000U);
   }
   osDelay(osWaitForever);
