@@ -28,7 +28,7 @@ static void app_main (void *argument) {
   (void)argument;
 
   for(int count = 0; count < 10; count++) {
-    printf("Hello World %d\r\n", count);
+    printf("Goodbye Sea %d\r\n", count);
     osDelay(1000U);
   }
   osDelay(osWaitForever);
